@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web CRM</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="container-fluid p-0 sticky-top shadow">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container">
+					<a class="navbar-brand" href="#"
+						><img class="logo" src="./imagenes/logo_univalle.png" alt=""
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+							<a class="nav-link" href="#beneficios">Beneficios</a>
+							<a class="nav-link" href="#reseñas">Reseñas</a>
+							<a class="nav-link" href="#video">Video</a>
+							<a class="nav-link" href="#equipo">Equipo</a>
+							<a class="nav-link" href="./manual.html">Manual</a>
+							<a href="./comprar.html" class="button">Comprar sistema</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="background">
+				<img src="./imagenes/background.png" alt="" />
+			</div>
+			<div class="container mt-5">
+				<section
+					id="img-carousel"
+					class="d-flex flex-column align-items-center"
+				>
+					<div class="m-4">
+						<h2>Conoce el nuevo CRM de Univalle</h2>
+					</div>
+
+					<div
+						id="carouselExampleRide"
+						class="carousel slide"
+						data-bs-ride="true"
+					>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="./imagenes/dashboard.png"
+									class="d-block w-100 carousel-img"
+									alt="..."
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./imagenes/prospectos.png"
+									class="d-block w-100 carousel-img"
+									alt="..."
+								/>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./imagenes/hitos.png"
+									class="d-block w-100 carousel-img"
+									alt="..."
+								/>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleRide"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleRide"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</section>
+
+				<section id="caracteristicas">
+					<div class="d-flex mt-6">
+						<div class="row">
+							<div class="col">
+								<h2>Asegurate que ningun prospecto se escape</h2>
+								<p>
+									Manejar prospectos con un excel es cosa del pasado. Es momento
+									de dar el salto a un CRM universitario que revolucione tu
+									gestión de prospectos. Optimiza tus procesos de admisión,
+									mejora la comunicación con estudiantes y aspirantes, y toma
+									decisiones basadas en datos reales.
+								</p>
+								<ul class="caracteristicas row">
+									<div class="col">
+										<li class="mb-3">
+											<strong
+												>Seguimiento del ciclo de hitos del prospecto: </strong
+											>Desde el primer contacto hasta la inscripcion.
+										</li>
+										<li class="mb-3">
+											<strong>Automatización de procesos: </strong>Seguimiento
+											de solicitudes, requisitos y entrevistas.
+										</li>
+									</div>
+									<div class="col">
+										<li class="mb-3">
+											<strong>Generación de reportes: </strong>Análisis del
+											embudo de hitos de inscripcion.
+										</li>
+										<li class="mb-3">
+											<strong>Base de datos de prospectos: </strong>Registro de
+											prospectos perteneciente a cada personal de marketing.
+										</li>
+									</div>
+								</ul>
+							</div>
+							<div class="col">
+								<img
+									class="carousel-img"
+									src="./imagenes/prospectos.png"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="beneficios">
+					<div class="d-flex flex-column align-items-center mt-6">
+						<h2>Beneficios</h2>
+						<p>
+							No solo tenemos caracteristicas robustas que se adecuaran a tu
+							flujo de captacion de prospectos, tambien te traera muchos
+							beneficios
+						</p>
+						<div class="mt-5 row">
+							<div class="mt-6 col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/click.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong>Haz más con menos esfuerzo</strong>
+									Automatiza tareas repetitivas y deja que el CRM trabaje por
+									ti, liberando tiempo para lo que realmente importa: inspirar a
+									nuevos talentos y aumentar tus tasas de inscripción. ¡El
+									futuro de tu universidad comienza hoy!
+								</p>
+							</div>
+							<div class="col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/sampling.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong>Convierte cada interacción en una oportunidad</strong>
+									Olvídate de los datos perdidos y aprovecha cada contacto con
+									prospectos para generar conexiones significativas. Un CRM que
+									organiza, prioriza y maximiza tus esfuerzos, ¡para que cada
+									consulta cuente!
+								</p>
+							</div>
+							<div class="mt-6 col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/report_1321938.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong>Impacto inmediato, resultados medibles </strong>
+									Deja de adivinar. Con reportes claros y categorización por
+									hitos, identifica lo que funciona y optimiza tu estrategia.
+									Aumenta inscripciones, reduce costos y transforma tus
+									esfuerzos en historias de éxito.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="video">
+					<div class="d-flex flex-column align-items-center mt-6">
+						<h2 class="mb-5">Mira nuestro CRM en accion</h2>
+						<video class="video" src="./Grabacion.mov" autoplay></video>
+					</div>
+				</section>
+
+				<section id="reseñas">
+					<div class="d-flex flex-column align-items-center mt-6">
+						<h2>Reseñas</h2>
+						<p>
+							Esto es lo que algunos integrantes de equipos de marketing que
+							usaron nuestro CRM opninan de la plataforma
+						</p>
+						<div class="mt-5 row">
+							<div class="col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/quote.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong>María López, Coordinadora de Admisiones</strong>
+									"Antes de implementar este CRM, el seguimiento de los
+									prospectos era un caos. Ahora, podemos categorizar a los
+									aspirantes según su progreso: quienes completaron su
+									solicitud, quienes enviaron sus documentos y quienes necesitan
+									un recordatorio. Además, las alertas automáticas nos permiten
+									priorizar a los estudiantes más interesados. ¡Hemos aumentado
+									nuestra tasa de conversión en un 30%!"
+								</p>
+							</div>
+							<div class="col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/quote.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong>Juan Pérez, Director de Marketing Educativo</strong>
+									"El CRM nos permitió identificar los puntos clave en el viaje
+									de los prospectos, desde el primer contacto hasta la
+									inscripción. Personalizamos nuestras campañas de correo según
+									cada hito, lo que mejoró significativamente la interacción con
+									los aspirantes. Antes enviábamos información genérica; ahora,
+									entregamos contenido relevante en el momento adecuado."
+								</p>
+							</div>
+							<div class="col">
+								<div class="mb-3 d-flex justify-content-center">
+									<i><img src="./imagenes/quote.png" alt="" /></i>
+								</div>
+
+								<p>
+									<strong
+										>Laura Sánchez, Responsable de Relaciones Públicas</strong
+									>
+									"Gracias a la categorización por hitos, hemos optimizado
+									nuestra estrategia de eventos. Ahora sabemos exactamente qué
+									prospectos invitar a nuestras charlas informativas o ferias
+									educativas según su interés y etapa en el proceso. Esto ha
+									incrementado el compromiso y reducido el abandono en etapas
+									críticas."
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="equipo">
+					<div class="d-flex flex-column align-items-center mt-6">
+						<h2>Conoce al equipo</h2>
+						<p>
+							Somos un pequeño grupo de desarrolladores de la universidad
+							univalle
+						</p>
+						<div class="row">
+							<div class="col d-flex flex-column align-items-center">
+								<img src="./imagenes/21004063.jpg" alt="" />
+								<p><strong>Andre Dellien</strong></p>
+								<p>Desarrollador FrontEnd</p>
+							</div>
+							<div class="col d-flex flex-column align-items-center">
+								<img src="./imagenes/21004063.jpg" alt="" />
+								<p><strong>Carlos Richter</strong></p>
+								<p>Desarrollador Backend</p>
+							</div>
+							<div class="col d-flex flex-column align-items-center">
+								<img src="./imagenes/21004063.jpg" alt="" />
+								<p><strong>Ariel Dominguez</strong></p>
+								<p>Diseñador</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="bg-dark text-white py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-3">
+						<h5>CRM Univalle</h5>
+						<p class="text-muted">Cambiando vidas a través de la educación.</p>
+					</div>
+
+					<div class="col-md-4 mb-3">
+						<h5>Enlaces Rápidos</h5>
+						<ul class="list-unstyled">
+							<li>
+								<a href="#" class="text-white text-decoration-none"
+									>Admisiones</a
+								>
+							</li>
+							<li>
+								<a href="#" class="text-white text-decoration-none"
+									>Programas</a
+								>
+							</li>
+							<li>
+								<a href="#" class="text-white text-decoration-none">Contacto</a>
+							</li>
+							<li>
+								<a href="#" class="text-white text-decoration-none">FAQs</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 mb-3">
+						<h5>Contáctanos</h5>
+						<p class="mb-1">
+							<i class="bi bi-geo-alt-fill"></i> Av. Principal #123, Ciudad
+							Santa Cruz
+						</p>
+						<p class="mb-1">
+							<i class="bi bi-telephone-fill"></i> +591 7040 2451
+						</p>
+						<p><i class="bi bi-envelope-fill"></i> andredellien80@gmail.com</p>
+					</div>
+				</div>
+				<hr class="bg-secondary" />
+				<div class="text-center">
+					<p class="mb-0">
+						&copy; 2024 CRM Univalle. Todos los derechos reservados.
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
