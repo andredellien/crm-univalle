@@ -14,6 +14,22 @@ function finalizarCompra() {
 
 function mostrarModal() {
 	const modal = new bootstrap.Modal(document.getElementById("modal"));
+
+	// Obtener el total y la lista de productos
+	const total = carrito.reduce((sum, producto) => sum + producto.precio, 0);
+	const lista = document.getElementById("modalListaCarrito");
+	lista.innerHTML = ""; // Limpiar la lista antes de agregar nuevos productos
+
+	carrito.forEach((producto) => {
+		const li = document.createElement("li");
+		li.textContent = `${producto.nombre} - $${producto.precio}`;
+		lista.appendChild(li);
+	});
+
+	// Actualizar el total en el modal
+	const modalTotalCarrito = document.getElementById("modalTotalCarrito");
+	modalTotalCarrito.textContent = total;
+
 	modal.show();
 }
 
