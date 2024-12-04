@@ -28,6 +28,29 @@ i img {
 	border-radius: 30px;
 }
 
+.beneficios-m-desktop {
+	margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+	.carousel {
+		width: 100%;
+		border-radius: 30px;
+	}
+
+	.background {
+		display: none;
+	}
+
+	.beneficios-m-desktop {
+		margin-top: 0px;
+	}
+
+	.video {
+		width: 100%;
+	}
+}
+
 .carousel-inner {
 	border-radius: 30px;
 }
